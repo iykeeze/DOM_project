@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="grid place-items-center h-screen">
+    <!-- -------- -->
+    <main class="flex gap-6">
+      <section id="cart_container"></section>
+      <section class="shadow-md rounded-md p-4 text-center h-fit">
+        <h3 class="font-bold">total cost</h3>
+        <p id="cart__total" class="text-gray-400"></p>
+        <button
+          id="checkout__btn"
+          class="bg-green-700 text-white font-bold shadow-md p-2 w w-full my-2 rounded-md"
+        >
+          checkout
+        </button>
+      </section>
+    </main>
+    <!-- -------- -->
+    <script src="./dom.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
